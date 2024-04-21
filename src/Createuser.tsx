@@ -23,7 +23,7 @@ const Createuser = () => {
         console.log("reg");
         console.log(register);
         let result = await axios.post(
-          "http://localhost:4000/login/signinusers",
+          "http://localhost:4000/auth/signup",
           register
         );
         console.log("result:", result);

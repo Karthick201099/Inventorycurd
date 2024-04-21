@@ -17,7 +17,7 @@ const Loginpage = () => {
     async function post() {
       try {
         let result = await axios.post(
-          "http://localhost:4000/login/loginusers",
+          "http://localhost:4000/auth/login",
           login
         );
         console.log("result:", result);

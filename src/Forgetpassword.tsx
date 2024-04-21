@@ -22,7 +22,7 @@ const Forgetpassword = () => {
     console.log("err");
     try {
       let sendmail = await axios.post(
-        "http://localhost:4000/login/forgetpassword",
+        "http://localhost:4000/auth/forget-password",
         user
       );
       if (sendmail.data.success) {
@@ -43,7 +43,7 @@ const Forgetpassword = () => {
     console.log("verify");
     try {
       let sendotp = await axios.post(
-        "http://localhost:4000/login/verifyotp",
+        "http://localhost:4000/auth/verify-otp",
         user,
         emailed
       );
@@ -64,7 +64,7 @@ const Forgetpassword = () => {
     e.preventDefault();
     try {
       let updatepass = await axios.put(
-        "http://localhost:4000/login/updatepassword/" + userid,
+        "http://localhost:4000/auth/reset-password/" + userid,
         user
       );
       console.log(updatepass);
