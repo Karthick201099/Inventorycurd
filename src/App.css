@@ -1,0 +1,66 @@
+.backgroundimg {
+  background-image: url("/src//assets//blurred-blue-gradient-wallpaper-preview.jpg");
+  background-size: cover;
+
+  .gradient {
+    box-shadow: 0px 0px 3px 5px rgba(43, 32, 32, 0.5);
+    border-radius: 5px;
+    position: relative;
+    .arrow {
+      position: absolute;
+      top: 20px;
+      right: 40px;
+    }
+  }
+  .hi {
+    text-decoration: none;
+    font-size: 18px;
+  }
+  .get {
+    padding-left: 100px;
+  }
+}
+
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: rgb(60, 61, 61);
+  position: fixed;
+  margin-top: 54px;
+  color: aliceblue;
+}
+.fixnav {
+  position: fixed;
+}
+.movetop {
+  padding-top: 40px;
+}
+.logo {
+  border-bottom: 1px solid;
+  padding-bottom: 15px;
+}
+.dash a {
+  text-decoration: none;
+  font-size: 30px;
+}
+.dash {
+  text-align: center;
+}
+
+.alignul {
+  font-size: 23px;
+}
+.alignul li a {
+  padding-left: 30px;
+  font-size: 22px;
+  text-decoration: none;
+  color: aliceblue;
+}
+.alignul li {
+  list-style-type: none;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+.mid li {
+  padding-bottom: 10px;
+}
