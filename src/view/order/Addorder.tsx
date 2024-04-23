@@ -84,7 +84,7 @@ const Addorder = () => {
 
   return (
     <>
-      <div className="m-5">
+      <div className="m-5 movetop">
         {error && <p className="alert alert-danger">{error}</p>}
         {msg && <p className="alert alert-success">{msg}</p>}
       </div>
@@ -170,7 +170,7 @@ const Addorder = () => {
           </div>
           <div className="mb-3 me-3 row justify-content-md-center mx-2 h5">
             <label htmlFor="" className="form-label">
-              Trainer Name :
+              Product Code :
             </label>
           </div>
           <div className="mb-3 me-3 row justify-content-md-center mx-2 ps-3 ">
